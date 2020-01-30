@@ -11,7 +11,7 @@ import com.ankur.basedemo.utils.ConstantsUtils;
 public class DBHelper extends SQLiteOpenHelper {
     private String TAG = DBHelper.class.getSimpleName();
 
-    private static final String DB_NAME = ConstantsUtils.dbName.PDTS;
+    private static final String DB_NAME = ConstantsUtils.dbName.ANKUR;
     private static final int DB_VERSION = BuildConfig.VERSION_CODE;
 
 
