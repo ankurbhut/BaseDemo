@@ -4,19 +4,13 @@ package com.ankur.basedemo.utils;
 public class ConstantsUtils {
 
     public static class dbName {
-        public static final String PDTS = "PDTS";
+        public static final String ANKUR = "ANKUR";
     }
 
     public static class dbTableName {
         public static final String CREATE_UAR = "UAR"; /*User Access Rights*/
         public static final String CREATE_CM = "CM"; /*Cret Mapping*/
-        public static final String CREATE_SFP = "SFP"; /*Semi-Finish Palletization*/
-        public static final String CREATE_KP = "KP"; /*Kitting Process*/
-        public static final String CREATE_FGPLG = "FGPLG"; /*Finished Good Pallet Label Generation*/
-        public static final String CREATE_PAI = "PAI"; /*Picking Against Invoice*/
-        public static final String CREATE_LP = "LP"; /*Loading Process*/
         public static final String CREATE_CG = "CG"; /*Carton Generation*/
-        public static final String CREATE_CP = "CP"; /*Check Point*/
     }
 
     public static class UserAccessRights {
@@ -27,14 +21,6 @@ public class ConstantsUtils {
 
     public static class Headers {
         public static final String KEY_ID = "id";
-        public static final String API_KEY = "apikey";
-        public static final String DEVICE_ID = "deviceid";
-        public static final String DEVICE_TOKEN = "devicetoken";
-        public static final String DEVICE_TYPE = "devicetype";
-        public static final String DEVICE_NAME = "devicename";
-        public static final String APP_VERSION = "appversion";
-        public static final String DEVICE_VERSION = "deviceversion";
-        public static final String TIMES_TAMP = "timestamp";
     }
 
     public static class Session {
